@@ -39,9 +39,9 @@
     cmatrix
     cowsay
     cbonsai
-    oneko
     xcowsay
     acpi
+    duf
 
     # nix related
     #
@@ -80,5 +80,7 @@
     font-awesome
 
     networkmanagerapplet
+
+    libreoffice-fresh
   ];
 }

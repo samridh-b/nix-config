@@ -4,6 +4,7 @@
     ./lsp.nix
     ./completion.nix
     ./oil.nix
+    ./lualine.nix
   ];
 
   plugins = {
