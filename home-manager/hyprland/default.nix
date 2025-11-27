@@ -8,6 +8,7 @@
     ./binds.nix
     ./settings.nix
     ./exec-once.nix
+    ./notification.nix
   ];
 
 }
