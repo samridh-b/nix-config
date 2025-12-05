@@ -5,6 +5,7 @@
     ./completion.nix
     ./oil.nix
     ./lualine.nix
+    ./render-markdown.nix
   ];
 
   plugins = {
