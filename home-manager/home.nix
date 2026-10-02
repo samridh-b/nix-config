@@ -3,15 +3,15 @@
 {
   imports = [
     ./programs
-    ./shell
+    #./shell
     ./hyprland
-    ./nixvim
-    ./rofi
-    ./waybar
+    #./nixvim
+    # ./rofi
+    # ./waybar
     ./git
-    ./wallpapers
-    ./scripts
-    ./ssh.nix
+    # ./wallpapers
+    # ./scripts
+    # ./ssh.nix
   ];
 
   home = {

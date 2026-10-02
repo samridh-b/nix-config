@@ -6,81 +6,17 @@
 
   # Packages that should be installed to the user profile.
   home.packages = with pkgs; [
-    # here is some command line tools I use frequently
-    # feel free to add your own or remove some of them
-
-    fastfetch
-
-    # archives
     zip
-    xz
     unzip
-    p7zip
 
-    # utils
-    ripgrep # recursively searches directories for a regex pattern
-    eza # A modern replacement for ‘ls’
-    fzf # A command-line fuzzy finder
-
-    # networking tools
-    mtr # A network diagnostic tool
-    ldns # replacement of `dig`, it provide the command `drill`
-    aria2 # A lightweight multi-protocol & multi-source command-line download utility
-
-    # misc
-    file
     which
-    tree
-    gnused
-    gnutar
-    gawk
-    zstd
-    gnupg
-    cmatrix
-    cowsay
-    cbonsai
-    xcowsay
-    acpi
-    duf
 
-    # nix related
-    #
-    # it provides the command `nom` works just like `nix`
-    # with more details log output
-    nix-output-monitor
-    nurl
-
-    # productivity
-    glow # markdown previewer in terminal
-
-    btop  # replacement of htop/nmon
-    iotop # io monitoring
-    iftop # network monitoring
-
-    # system call monitoring
-    strace # system call monitoring
-    ltrace # library call monitoring
-    lsof # list open files
-
-    # system tools
-    sysstat
-    lm_sensors # for `sensors` command
-    ethtool
-    pciutils # lspci
-    usbutils # lsusb
-
-
-    # social
-    spotify
-
-
+    vivaldi
+    emacs
+    telegram-desktop
+    foot
     #fonts 
-    nerd-fonts.hack
     nerd-fonts.jetbrains-mono
-    font-awesome
-
-    networkmanagerapplet
-
-    libreoffice-fresh
+    
   ];
 }
